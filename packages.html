@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jo Smith Photography - Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="icon " type="image/png " sizes="16x16 " href="elements/jsfavi_adobe_express.svg">
+</head>
+
+<!---- HEADER ---->
+
+<header>
+
+    <div class="logo">
+
+        <a href="index.html"><img src="elements/jslogo.png"></a>
+
+    </div>
+
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="packages.html" class="active">Packages</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<!--- END OF HEADER ---->
+
+<body>
+
+
+
+    <!--------MEDIA SCROLLERS--------->
+
+
+    <div class="media-scroller">
+
+        <div class="media-element">
+            <img src="elements/studio-1.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-2.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-3.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-4.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-5.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-6.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-7.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-8.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-1.jpg" alt="">
+        </div>
+
+    </div>
+
+    <div id = "container">
+
+        <div class="package-left">
+
+            <img id = "imgout" src = "elements/package-0.jpg">
+
+        </div>
+
+        <div class="package-right">
+
+            <div class="top">
+
+                <h1 id = "headingout">STUDIO PACKAGES</h1>
+
+            </div>
+
+            <div class="middle">
+
+                <p id = "msgout">One-hour professional studio photo sessions are accompanied with a range of different outfits, styles and backgrounds.<br><br>Choose your ten favourite images in your own time and in the peace of your own home.<br>Your chosen images will be fully retouched according to your wishes.<br></p>
+
+                <h2 id = "priceout"></h2>
+
+            </div>
+
+            <div class="bottom">
+
+                <select id = "menuselect" onchange = "packageChoice(this.value)">
+                <option value = "" >Select Package</option>
+                <option value = "Print Package One" >Print Package One</option>
+                <option value = "Print Package Two" >Print Package Two</option>
+                <option value = "Print Package Three" >Print Package Three</option>
+                <option value = "Digital Package One" >Digital Package One</option>
+                <option value = "Digital Package Two" >Digital Package Two</option>
+
+                </select>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="heading">
+
+        <h1>STUDIO VOUCHERS</h1>
+        <p>Jo’s style has developed organically through photographing the wide variety of landscapes<br> and seascapes found around Scotland. Her bold, colourful landscape <br>photographs are always in-demand.</p>
+        <button type="button" class="btn-2" onclick = "location.href='contact.html';">Order Here</button>
+
+    </div>
+
+    <div class="media-scroller">
+
+        <div class="media-element">
+            <img src="elements/studio-1.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-2.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-3.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-4.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-5.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-6.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-7.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-8.jpg" alt="">
+        </div>
+
+        <div class="media-element">
+            <img src="elements/studio-1.jpg" alt="">
+        </div>
+
+    </div>
+
+    <div id = "container">
+
+        <div class="package-right-2">
+
+            <div class="top">
+
+                <h1 id = "headingout-2">EVENT PACKAGES</h1>
+
+            </div>
+
+            <div class="middle">
+
+                <p id = "msgout-2">Years of experience and good expertise are what define your event photographs.<br> With time in the industry and many happy clients, Jo Smith Photography will surpass your expectations of excellence.<br> No matter the event all enquiries are welcome.</p>
+
+                <h2 id = "priceout-2"></h2>
+
+            </div>
+
+            <div class="bottom">
+
+                <select id = "menuselect" onchange = "packageChoice2(this.value)">
+                <option value = "" >Select Package</option>
+                <option value = "Wedding Package" >Wedding Package</option>
+                <option value = "Child Portrait Package" >Child Portrait Package</option>
+                <option value = "Family Portrait Package" >Family Portrait Package</option>
+
+                </select>
+
+
+            </div>
+
+        </div>
+
+        <div class="package-left-2">
+
+            <img id = "imgout-2" src = "elements/package-0.jpg">
+
+        </div>
+
+
+    </div>
+
+    <script src="packages.js"></script>
+
+</body>
+
+<!----- FOOTER ------>
+
+<footer>
+
+    <div class="left">
+         <p>
+         Monday 09:30 – 18:00<br>
+         Tuesday 09:30 – 18:00<br>
+         Wednesday 09:30 – 18:00<br>
+         Thursday 09:30 – 18:00<br>
+         Friday 09:30 – 18:00<br>
+         Saturday 09:00 – 18:00<br>
+        Sunday 09:00 – 18:00</p>
+    </div>
+
+    <div class="middle">
+
+        <i class="uil uil-instagram"></i>
+        <i class="uil uil-twitter-alt"></i>
+        <i class="uil uil-image-search"></i>
+    </div>
+    
+
+    <div class="right">
+        <p>
+        Jo Smith Photography<br>
+        987 Brook Street<br>
+        Dundee<br>
+        Scotland<br>
+        DD5 2EA<br>
+        01999721 724 522<br>
+        enquire@josmithphoto.com</p>
+    </div>
+
+</footer>
+
+<!----- END OF FOOTER ------>
+
+</html>
